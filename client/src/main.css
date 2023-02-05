@@ -7,8 +7,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: yellow;
+    background-color: rgb(44, 43, 43);
+    color: white;
 }
 li {
     list-style: none;
@@ -36,7 +36,7 @@ li {
      padding: 10px;
      font-size: 1.5rem;
      text-decoration: none;
-     color: red;
+     color: white;
 }
  /* >>>>>>>>>> hovers */
  .navItem:hover{
@@ -77,9 +77,9 @@ li {
     font-size : 1rem;
 }
  .hero-highlight{
-    color:red;
+    color:aqua;
     font-weight: 900;
-    `
+    
  }
 
  .hero-image{
@@ -95,10 +95,10 @@ li {
     padding: 16px 32px;
     font-size: 1rem;
     margin: 10px;
-    color: red;
+    color:black;
     font-weight:400;
     outline:none;
-    background-color:yellow;
+    background-color:aqua;
     border-radius: 23px;
     text-transform: capitalize;
 
@@ -106,8 +106,9 @@ li {
 
  /* HOME MEDIA QUERIES */
  @media screen and (max-width:780px){
-    .navItem{
-        border: 1px solid blue;
+    
+    .hero-message p {
+        min-width: 500px;
     }
     .hero{
         display:flex;
