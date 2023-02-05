@@ -1,0 +1,127 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+  
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: yellow;
+}
+li {
+    list-style: none;
+}
+/* APP CONTAINER  */
+
+.app-container {
+    margin-top: 10px;
+}
+
+/* NAVBAR  */
+
+.navbar{
+    display : flex;
+    width: 80%;
+    padding: 10px 20px;
+    min-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.navItem {
+     padding: 10px;
+     font-size: 1.5rem;
+     text-decoration: none;
+     color: red;
+}
+ /* >>>>>>>>>> hovers */
+ .navItem:hover{
+    color:rgb(231, 231, 104);
+ }
+ 
+ /*     HERO    */
+.hero {
+    display : flex;
+    width:80%;
+    margin:0 auto;
+}
+
+
+ .hero-message{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    align-items: center;
+    
+ }
+
+ .hero-info{
+    margin-left: 10px;
+    text-transform:capitalize;
+    text-align:left;
+ }
+ .text-1{
+    font-size:2.5rem;
+    font-weight: 100;
+ }
+ .text-2{
+    font-size : 1.5rem;
+    font-weight: 100;
+}
+.text-3{
+    font-size : 1rem;
+}
+ .hero-highlight{
+    color:red;
+    font-weight: 900;
+    `
+ }
+
+ .hero-image{
+    height: 600px;
+    object-fit: contain;
+ }
+ .hero-btns {
+    text-align:left;
+ }
+
+ .hero-btns button{
+    border: none;
+    padding: 16px 32px;
+    font-size: 1rem;
+    margin: 10px;
+    color: red;
+    font-weight:400;
+    outline:none;
+    background-color:yellow;
+    border-radius: 23px;
+    text-transform: capitalize;
+
+ }
+
+ /* HOME MEDIA QUERIES */
+ @media screen and (max-width:780px){
+    .navItem{
+        border: 1px solid blue;
+    }
+    .hero{
+        display:flex;
+        flex-direction: column;
+    }
+    .hero-message{
+        width: 100%;
+        min-width: 600px;
+    }
+    .hero-image{
+        width:100%;
+        min-width: 600px;
+    }
+    .hero-btns{
+        min-width: 600px;
+    }
+ }
