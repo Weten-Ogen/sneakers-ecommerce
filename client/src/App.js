@@ -1,9 +1,7 @@
 import Navbar from './Common/Navbar'
 import {BrowserRouter as  Router, Routes, Route} from 'react-router-dom'
-import Home from './Pages/Home/Home';
-import Project from './Pages/Project/Project';
-import Contact from './Pages/Contact/Contact';
-import About from './Pages/About/About';
+import {Home, About , Contact , Project} from './Pages/index';
+
 import './main.css'
 
 
