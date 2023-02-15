@@ -1,7 +1,6 @@
 /* GENERAL */
 * {
     box-sizing: border-box;
-  
 }
 
 body{
@@ -20,17 +19,14 @@ li {
 }
 
 /* NAVBAR  */
-
 .navbar{
-    display : flex;
+    display :flex;
     width: 80%;
     padding: 10px 20px;
-    min-width: 600px;
+    min-width:600px;
     margin: 0 auto;
-    align-items: center;
+    align-items:center;
     justify-content: flex-end;
-    
-
 }
 
 .navItem {
@@ -39,6 +35,8 @@ li {
      text-decoration: none;
      color:rgb(126, 216, 216);
 }
+
+
  /* >>>>>>>>>> hovers */
  .navItem:hover{
     color:rgb(231, 231, 104);
@@ -46,11 +44,11 @@ li {
  
  /*     HERO    */
 .hero {
-    display : flex;
+    margin-top:50px;
+    display:flex;
     width:80%;
     margin:0 auto;
 }
-
 
  .hero-message{
     display:flex;
@@ -58,37 +56,44 @@ li {
     justify-content: center;
     margin-right: auto;
     align-items: center;
-    
  }
 
  .hero-info{
     margin-left: 10px;
-    text-transform:capitalize;
     text-align:left;
  }
+
+.txt{
+    text-transform:capitalize;
+ }
+
  .text-1{
     font-size:2.5rem;
     font-weight: 100;
  }
+
  .text-2{
     font-size : 1.5rem;
     font-weight: 100;
 }
+
 .text-3{
-    font-size : 1rem;
+    font-size :1rem;
 }
- .hero-highlight{
+
+.hero-highlight{
     color:aqua;
-    font-weight: 900;
+    font-weight:900;
     
  }
 
  .hero-image{
     object-fit: contain;
-    
-    
-   
+    height: 500px;
+    border-radius:50%;
+    text-align:center;
  }
+
  .hero-btns {
     text-align:left;
  }
