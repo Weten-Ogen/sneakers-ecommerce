@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 /* GENERAL */
 * {
     box-sizing: border-box;
@@ -6,132 +12,25 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(44, 43, 43);
-    color: white;
+    background-color:#000000;
+    color: rgb(197, 183, 183);
+    
 }
+
 li {
-    list-style: none;
+    list-style-type: none;
 }
-/* APP CONTAINER  */
-
-.app-container {
-    margin-top: 10px;
-}
-
-/* NAVBAR  */
-.navbar{
-    display :flex;
-    width: 80%;
-    padding: 10px 20px;
-    min-width:600px;
-    margin: 0 auto;
-    align-items:center;
-    justify-content: flex-end;
-}
-
-.navItem {
-     padding: 10px;
-     font-size: 1.5rem;
-     text-decoration: none;
-     color:rgb(126, 216, 216);
-}
-
-
- /* >>>>>>>>>> hovers */
- .navItem:hover{
-    color:rgb(231, 231, 104);
- }
- 
- /*     HERO    */
-.hero {
-    margin-top:50px;
-    display:flex;
-    width:80%;
-    margin:0 auto;
-}
-
- .hero-message{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: auto;
-    align-items: center;
- }
-
- .hero-info{
-    margin-left: 10px;
-    text-align:left;
- }
-
-.txt{
-    text-transform:capitalize;
- }
-
- .text-1{
-    font-size:2.5rem;
-    font-weight: 100;
- }
-
- .text-2{
-    font-size : 1.5rem;
-    font-weight: 100;
-}
-
-.text-3{
-    font-size :1rem;
-}
-
-.hero-highlight{
-    color:aqua;
-    font-weight:900;
-    
- }
-
- .hero-image{
+.hero-img{
     object-fit: contain;
-    height: 500px;
-    border-radius:50%;
-    text-align:center;
- }
-
- .hero-btns {
-    text-align:left;
- }
-
- .hero-btns button{
-    border: none;
-    padding: 16px 32px;
-    font-size: 1rem;
-    margin: 10px;
-    color:black;
-    font-weight:400;
-    outline:none;
-    background-color:aqua;
-    border-radius: 23px;
-    text-transform: capitalize;
-
- }
-
- /* HOME MEDIA QUERIES */
- @media screen and (max-width:780px){
+   
     
-    .hero-message p {
-        min-width: 500px;
-    }
-    .hero{
-        display:flex;
-        flex-direction: column;
-    }
-    .hero-message{
-        width: 100%;
-        min-width: 600px;
-    }
-    .hero-image{
-        width:100%;
-        min-width: 600px;
-        height: 400px;
-    }
-    .hero-btns{
-        min-width: 600px;
-    }
- }
+
+}
+
+.img {
+    
+    border-radius : 30%;
+    margin:0;
+   
+}
+

@@ -1,23 +1,24 @@
 import React from 'react'
-import { hero_banner } from '../../Images';
+
 
 
 const Hero = () => {
   return (
-    <article className='hero'>
-        <div className='hero-message'>
-            <div className='hero-info'>
-                <p className='text-1'>my name is <span className=' txt hero-highlight'>marcus oware</span></p>
-                <p className='text-2 text'>i am a  <span className='txt hero-highlight'>software engineer</span> in ghana, west africa</p>
-                <p className='text-3 '>I have 4 years experience in <span className='txt hero-highlight'>software engineer</span></p>
-            </div>
-            <div className='hero-btns'>
-                <button type='button'>more about me </button>
-                <div className='hero-social-icons'>
-                </div>
-            </div>
-        </div>
-      <img src={hero_banner} alt='marcus oware' className='hero-tag hero-image'/>
+    <article className='text-white '>
+      <div className='max-w-[800px]  p-2 font-bold  w-full flex flex-col item-center mt-[50px] h-screen  mx-auto py-4 '>
+          
+       
+                <p className=' md:text-6xl sm:text-5xl text-2xl '> my name is <span className=' capitalize md:text- 8xl sm: text-6xl text-5xl text-[#00fff0]'> marcus oware </span><br/>
+                <span className='lowercase text-3xl '> A fullstack software engineer .</span></p>
+
+                {/* buttons  */}
+                <button className='bg-[#00fff0] text-[32px] my-6
+                mx-auto  font-medium text-[#000000] py-3 px-6 border border-w-[1px] rounded-md '>Coffee</button>
+      
+                  {/* social media icons here*/}
+            
+           
+      </div>
     </article>
   )
 }

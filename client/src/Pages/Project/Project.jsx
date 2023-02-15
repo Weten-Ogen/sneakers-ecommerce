@@ -1,9 +1,9 @@
-import React from 'react'
+import Proj from './Proj'
 
 const Project = () => {
   return (
     <div>
-      Projects
+      <Proj/>
     </div>
   )
 }
