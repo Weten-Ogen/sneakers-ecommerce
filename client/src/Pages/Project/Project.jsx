@@ -1,9 +1,9 @@
-import React from 'react'
+
 
 const Project = () => {
   return (
     <div>
-      Projects
+      Proj
     </div>
   )
 }
