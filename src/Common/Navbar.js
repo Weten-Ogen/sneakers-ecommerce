@@ -4,7 +4,6 @@ import NavButtons from '../Components/Navbar/NavButtons'
 import VerticalNav from '../Components/Navbar/VerticalNav'
 import NavProf from '../Components/Navbar/NavProf'
 
-
  const Navbar = () => {
 
   const [nav, setNav] = useState(true);
