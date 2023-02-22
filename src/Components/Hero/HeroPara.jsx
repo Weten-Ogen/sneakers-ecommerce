@@ -12,7 +12,7 @@ function HeroPara({price}) {
       <p className='text-slate-400 font-semibold text-sm'>$125.00</p>
       <div className='block mx-auto md:flex'>
       <Counter />
-      <button className=' bg-[#faa405] text-white capitalize text-md py-4 px-6 w-full  my-2 rounded-md'>add to cart</button>
+      <button className=' bg-[#faa405] text-white capitalize text-md py-4 px-6 w-full  my-2 rounded-md shadow-red-400 hover:ring hover:ring-yellow-200 hover:text-lg'>add to cart</button>
       </div>
     </div>
   )
