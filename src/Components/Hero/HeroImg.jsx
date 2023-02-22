@@ -14,13 +14,13 @@ import {
  export default function HeroImg() {
   return (
     <div className='w-full md:max-w-sm'>
-      <img src={image1} alt='image1' className='w-full rounded-md mx-auto' />
+      <img src={image1} alt='image1' className='w-full rounded-md mx-auto hover:ring hover:ring-yellow-300' />
 
       <div className='hidden md:flex my-4 max-w-sm w-[23%]'>
-        <img src={image1_thumb} className='hover:ring hover:ring-yellow-300 mr-3 rounded-md '  alt='image1'/>
-        <img src={image2_thumb} className='hover:ring  hover:ring-yellow-300 mr-3 rounded-md'  alt='image1'/>
-        <img src={image3_thumb} className='hover:ring hover:ring-yellow-300 mr-3 rounded-md'  alt='image1'/>
-        <img src={image4_thumb} className='hover:ring hover:ring-yellow-300 mr-3 rounded-md'  alt='image1'/>
+        <img src={image1_thumb} className='hover:ring hover:ring-yellow-300 mr-2 rounded-md'  alt='image1 '/>
+        <img src={image2_thumb} className='hover:ring  hover:ring-yellow-300 mr-2 rounded-md '  alt='image1 '/>
+        <img src={image3_thumb} className='hover:ring hover:ring-yellow-300 mr-3 rounded-md hover:text-lg'  alt='image1' />
+        <img src={image4_thumb} className='hover:ring hover:ring-yellow-300  rounded-md hover:text-md'  alt='image1' />
         
       </div>
     </div>
