@@ -8,13 +8,13 @@ const HeroThumb = () => {
   return (
     <div className='hidden md:max-w-md md:flex mx-auto my-2 '>
         {
-            gallery.map(pic=> (
+            gallery.map(({thumbnail,id, image})=> (
         
-                <div  key={pic.id} className='w-max-lg  px-2'>
+                <div  key={id} className='w-max-lg  px-2'>
                 <img 
-                onClick={() => dispatch(handleChange(pic.image))}
-                src={`${pic.thumbnail}`}
-                alt={`${pic.thumbnail}`}
+                onClick={() => dispatch(handleChange(id))}
+                src={`${thumbnail}`}
+                alt={`${thumbnail}`}
                 className='object-cover hover:ring-yellow-400 rounded-md hover:ring '/> 
                 </div>
                
