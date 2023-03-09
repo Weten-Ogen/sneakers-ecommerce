@@ -28,19 +28,16 @@ const carouselSlice = createSlice({
    name: 'carousel',
    initialState,
    reducers:{
-    changePic: (state,payload) =>{
-        const {id} = payload.actions
-        const pic = images.filter(p => p.id === id)
-        console.log(pic)
-        return {
-            ...initialState, 
-            active : pic.image,
-        }
+    handleChange: (state,{payload}) =>{
+        console.log(state)
+        const pic = state.images.filter(img => payload.image === img.image)
+        
+        return
 
     }
    }
 })
 
 
-export const { changePic } = carouselSlice.actions; 
+export const { handleChange } = carouselSlice.actions; 
 export default carouselSlice.reducer;
