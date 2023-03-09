@@ -7,7 +7,7 @@ import './main.css'
 
 function App() {
   return (
-   <div className='app-container'>
+   <div className='app-container '>
     <Router>
     <Navbar/>
         <Routes>
