@@ -1,18 +1,18 @@
 import React from 'react'
 import {useDispatch, useSelector} from 'react-redux';
-import { handleChange } from '../../app/features/carousel';
+import { handleThumbClick } from '../../app/features/carousel';
 
 const HeroThumb = () => {
     const dispatch = useDispatch();
-    const gallery = useSelector(store => store.carousel.images)
+    const {Imgs}= useSelector(store => store.carousel)
   return (
     <div className='hidden md:max-w-md md:flex mx-auto my-2 '>
         {
-            gallery.map(({thumbnail,id, image})=> (
-        
+            Imgs.map(({id , thumbnail,pic})=> (
                 <div  key={id} className='w-max-lg  px-2'>
+                
                 <img 
-                onClick={() => dispatch(handleChange(id))}
+                onClick = {() => dispatch(handleThumbClick(pic))}
                 src={`${thumbnail}`}
                 alt={`${thumbnail}`}
                 className='object-cover hover:ring-yellow-400 rounded-md hover:ring '/> 

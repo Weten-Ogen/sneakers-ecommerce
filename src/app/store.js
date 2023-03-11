@@ -7,5 +7,4 @@ export const store = configureStore({
          cart: cartReducer,
          carousel:carouselReducer,
     },
-
 })
