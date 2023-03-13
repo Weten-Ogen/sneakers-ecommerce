@@ -8,7 +8,7 @@ function HeroPara({price}) {
   const state = useSelector((store) => store.cart)
 
   return (
-    <div className='py-2 px-2 max-w-[500px]'>
+    <div className='py-2 px-1 max-w-[500px]'>
 
       {/* HEADING */}
       <p className='text-[rgb(238,156,4)] font-bold text-sm uppercase'>sneaker company
