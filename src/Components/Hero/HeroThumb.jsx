@@ -6,7 +6,7 @@ const HeroThumb = () => {
     const dispatch = useDispatch();
     const {Imgs}= useSelector(store => store.carousel)
   return (
-    <div className='hidden md:max-w-md md:flex mx-auto my-2 '>
+    <div className='hidden md:flex md:max-w-md  mx-auto my-2 '>
         {
             Imgs.map(({id , thumbnail,pic})=> (
                 <div  key={id} className='w-max-lg  px-2'>
