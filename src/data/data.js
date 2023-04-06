@@ -21,4 +21,11 @@ export const data= [
     }
 ]
 
-export default data;
+
+
+export const slides =[
+    "image-product-1.jpg",
+    "image-product-2.jpg",
+    "image-product-3.jpg",
+    "image-product-4.jpg",
+]
